@@ -29,11 +29,6 @@ This is a freelancer portfolio and enquiry website, not a freelance marketplace 
 The project enquiry form submits the contact details, location, selected service, timeline and project description to `weboratechnologieswt@gmail.com` through FormSubmit. On the first submission, confirm the activation email FormSubmit sends to that address. FormSubmit may retain submissions for up to 30 days; this website does not store them.
 
 ## Free publishing with GitHub Pages
-1. Create a GitHub repository, for example `webora-technologies`.
-2. Upload `index.html`, `css/`, `js/`, `images/` and this README to the repository root. The `images/` folder is required for the portfolio previews.
-3. In GitHub, open **Settings → Pages**.
-4. Under Build and deployment, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. GitHub will provide your public website address after deployment.
+The GitHub Actions workflow deploys this static site whenever changes are pushed to `main`. If Pages has not been configured for the repository yet, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. After the workflow succeeds, the site is available at `https://Anish2076.github.io/webora-technologies/`.
 
 You can also publish the folder using Netlify Drop or connect the GitHub repository to Netlify.
